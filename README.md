@@ -1,5 +1,5 @@
 # mdio
-Open-source library for Multi-Device IO (MDIO).
+Open-source C++ library for Multi-Device IO (MDIO).
 
 # Installation
 TBD
