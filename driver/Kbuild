@@ -1,0 +1,8 @@
+# 
+#  Inputs:
+#      - MODULE_NAMES
+#
+
+$(foreach _module, $(MODULE_NAMES), \
+  $(eval include $(src)/$(_module)/$(_module).Kbuild))
+
