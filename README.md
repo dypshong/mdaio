@@ -1,12 +1,12 @@
-# mdio
-Open-source C++ library for Multi-Device IO (MDIO).
+# mdaio
+Open-source C++ library for Multi-Device Asynchronous IO (MDAIO).
 
 # Installation
 TBD
 
 # About
-## mdio-runtime
+## runtime
 TBD
 
-## mdio-driver
+## driver
 TBD

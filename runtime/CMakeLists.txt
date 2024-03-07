@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.26.4)
 
-project(mdio
+project(
+  mdaio
   VERSION 1.0.0
   LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
@@ -18,5 +19,7 @@ if(OpenMP_FOUND)
 endif(OpenMP_FOUND)
 
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 add_subdirectory(src)
+add_subdirectory(tools)

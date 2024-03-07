@@ -1,7 +1,7 @@
 ifneq ($(KERNELRELEASE),) 
     include $(src)/Kbuild
 else
-    MODULE_NAMES = mdio mdio2
+    MODULE_NAMES = mdaio
     
     KERNELDIR ?= /lib/modules/$(shell uname -r)/build
     PWD := $(shell pwd)
